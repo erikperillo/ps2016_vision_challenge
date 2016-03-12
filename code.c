@@ -1,3 +1,8 @@
+//cor RGB a ser considerada como laranja
+#define ORANGE_R 255
+#define ORANGE_G 97
+#define ORANGE_B 27
+
 int main()
 {
 	//lendo a imagem de um dispositivo

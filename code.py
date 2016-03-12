@@ -1,3 +1,6 @@
+#cor RGB a ser considerada como laranja
+ORANGE = (255, 97, 27)
+
 def main():
     #lendo a imagem de um dispositivo
     M = read_image()

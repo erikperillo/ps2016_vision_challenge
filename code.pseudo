@@ -9,6 +9,11 @@ M = read_image
 cone_x = 0
 cone_y = 0
 
+#cor RGB a ser considerada como laranja
+ORANGE_R = 255
+ORANGE_G = 97
+ORANGE_B = 27
+
 #----COMPLETE O CÓDIGO AQUI-----
 
 
