@@ -27,10 +27,10 @@ def main():
     #dimensões da imagem
     width, height = 640, 480
 
-    #ângulos de visão
+    #ângulo de visão
     hor_vision_angle = deg_to_rad(75.)
 
-    #constante que converte pixels para graus
+    #constante que converte pixels para radianos
     hor_pix_to_rad = hor_vision_angle/width
 
     #adquirindo imagem binária
