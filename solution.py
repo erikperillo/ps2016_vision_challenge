@@ -48,7 +48,14 @@ def main():
             cone_y = y + h/2 
             break
 
-    #bônus: obtendo o ângulo do objeto com o centro da imagem
+    #bônus: obtendo o ângulo do objeto com o centro da imagem. 
+    #essa primeira solução é a mais correta. 
+    ratio_diff = (2*(cone_x - width/2)/width)
+    const_tan = math.tan(hor_vision_angle/2.)
+    hor_angle = math.atan(ratio_diff*const_tan)
+    #a segunda, porém, também é
+    #perfeitamente aceitável já que o erro máximo com relação à correta
+    #é de menos de três graus e ela é computacionalmente mais eficiente.
     hor_angle = (cone_x - width/2)*hor_pix_to_rad
 
     return cone_x, cone_y, hor_angle
