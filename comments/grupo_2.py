@@ -38,6 +38,7 @@ for point in points: # passa por todos os pontos retornados.
     #o cone pode estar à frente dos garis. 
     #assim, ele seria maior na imagem e sua largura poderia então ser maior
     #que a dos garis.
+    #-------------/AVALIADOR--------------
     if w < cw or cw == 0: # testa se tem largura menor q o ponto do retângulo do cone, ou se o
     #ponto do retângulo do cone é vazio.
         cone_p = point
@@ -45,6 +46,7 @@ for point in points: # passa por todos os pontos retornados.
     #-------------AVALIADOR:--------------
     #não entendi o porquê de checar essa condição.
     #um comentário nessa parte era necessário.
+    #-------------/AVALIADOR--------------
     if w == cw and h > ch:
         cone_p = point
     end if
@@ -53,6 +55,7 @@ for point in points: # passa por todos os pontos retornados.
 
 #-------------AVALIADOR:--------------
 #pedantismo: variável escrita errado.
+#-------------/AVALIADOR--------------
 cone_x = cx+(cw/2)#define o centro do retângulo do cone.
 Cone_y = cy+(ch/2)
 
@@ -71,4 +74,5 @@ Cone_y = cy+(ch/2)
 
 #para uma sugestão de solução, veja o código solution.py no repositório:
 #http://github.com/erikperillo/ps2016_vision_challenge
+#-------------/AVALIADOR--------------
 
