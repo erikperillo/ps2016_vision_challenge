@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 #abaixo segue uma possível solução para o case da visão.
 
+import math
+
 PI = 3.1415926536
 
 """converte de graus para radianos."""
