@@ -74,9 +74,9 @@ def main():
 
     #notas:
     #solução do problema básico: 9.0
-    #clareza do código: 10.0
+    #clareza do código: 9.5
     #problema extra: 1.0
-    #nota final: 0.7*9 + 0.3*10 + 0.1*1 = 9.4
+    #nota final: 0.7*9 + 0.3*9.5 + 0.1*1 = 9.25
 
     #para uma sugestão de solução, veja o código solution.py no repositório:
     #http://github.com/erikperillo/ps2016_vision_challenge

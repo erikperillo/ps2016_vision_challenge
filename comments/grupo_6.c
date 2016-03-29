@@ -43,10 +43,10 @@ melhor comentado, também.
 Fora o pequeno erro no desafio extra, o pensamento está correto.
 
 Notas:
-Solução para o problema básico: 7.0
+Solução para o problema básico: 6.5
 Clareza do código: 5.5
-Problema extra: 9.0
-Nota final: 0.7*7.0 + 0.3*5.5 + 0.1*9 = 7.45
+Problema extra: 8.0
+Nota final: 0.7*6.5 + 0.3*5.5 + 0.1*8 = 7.0
 
 Para uma sugestão de solução, veja o código solution.py no repositório: 
 http://github.com/erikperillo/ps2016_vision_challenge  
